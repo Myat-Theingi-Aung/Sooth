@@ -1,0 +1,1369 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../font/Roboto-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: url('../font/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('../font/Roboto-Regular.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  max-width: 1920px;
+}
+
+img {
+  width: 100%;
+}
+
+.last-row2 .img-icon img {
+  width: 30px !important;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.l-inner {
+  width: 98%;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.banner-slider .pc {
+  display: block !important;
+}
+
+.tb,
+.sp {
+  display: none !important;
+}
+
+.pc {
+  display: block !important;
+}
+
+
+.slider-row .banner-slider img {
+  width: 1400px;
+}
+
+.slider-row {
+  position: relative;
+  list-style: none;
+}
+
+.slider-row .l-inner .txt-blk {
+  position: absolute;
+  top: 31.2%;
+  left: 12.2%;
+  width: 452px;
+}
+
+.com-ttl {
+  line-height: 1.2;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.slider-row .txt-blk .com-ttl {
+  float: left;
+  padding-bottom: 17px;
+}
+
+.slider-row .txt-blk p {
+  width: 380px;
+  line-height: 1.5;
+}
+
+.slick-dots li button:before {
+  top: -50px !important;
+  width: 16px !important;
+  height: 15px !important;
+  background-color: #FF8800 !important;
+}
+
+.slick-dots li button
+
+/* Solutions for all skin health */
+.com-h3 {
+  line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.solutions-row .sol-header {
+  margin-top: -30px;
+  padding-bottom: 38px;
+  border: 1px solid #354E57;
+  text-align: center;
+}
+
+.solutions-row .sol-header .com-h3 {
+  line-height: 1.2;
+  padding-top: 44px;
+  padding-bottom: 7px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.solutions-row .sol-header span {
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+.slick-prev,
+.slick-next {
+  top: 46% !important;
+}
+
+.slick-prev {
+  left: 109px !important;
+  z-index: 1 !important;
+}
+
+.slick-next {
+  right: 152px !important;
+}
+
+/* Smooth Scroll Anchor */
+
+.sub-col1 .sub-col1-div {
+  width: 611px;
+}
+
+.solutions-row .anchor-link .links {
+  position: relative;
+  margin-left: 24%;
+  padding-top: 47px;
+}
+
+.anchor-link .links .sp {
+  position: absolute;
+  bottom: -1px;
+  left: 102px;
+  width: 23px;
+  height: 23px;
+}
+
+.solutions-row .anchor-link .links a {
+  display: inline-block;
+  line-height: 1.2;
+  margin-right: 75px;
+  border: 1px solid #354E57;
+  background-color: #FFFFFF;
+  color: #2E2E22;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.solutions-row .anchor-link .links a.active,
+.solutions-row .anchor-link .links a:hover {
+  border: none;
+  background-color: #D1B0A8;
+  color: #FFFFFF;
+}
+
+.solutions-row .anchor-link .links .acne-link {
+  width: 143px;
+  padding: 17px 51px;
+}
+
+.solutions-row .anchor-link .links .treatment-link {
+  width: 166px;
+  padding: 17px 42px;
+}
+
+.solutions-row .anchor-link .links .suncream-link {
+  width: 192px;
+  padding: 17px 51px;
+}
+
+.solutions-row .anchor-link .acne .acne-col1 {
+  float: left;
+  width: 210px;
+  padding-top: 59px;
+}
+
+.solutions-row .anchor-link .acne .acne-col2 {
+  float: right;
+  width: 929px;
+  padding-top: 39px;
+}
+
+.solutions-row .acne .com-h4 {
+  line-height: 1.2;
+  color: #2E2E22;
+  font-weight: 400;
+}
+
+.solutions-row .acne .acne-col1 .com-h4 {
+  padding-bottom: 31px;
+  font-size: 16px;
+}
+
+.solutions-row .acne .row1 ul,
+.solutions-row .acne .row2 ul {
+  padding-bottom: 63px;
+  padding-left: 27px;
+}
+
+.solutions-row .acne .row1 ul li,
+.solutions-row .acne .row2 ul li {
+  padding-bottom: 30px;
+}
+
+.solutions-row .acne .row1 ul li a,
+.solutions-row .acne .row2 ul li a {
+  line-height: 1.1;
+  color: #2E2E22;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.solutions-row .acne .acne-col2 .sub-row1-div {
+  float: left;
+  width: 611px;
+}
+
+.solutions-row .acne .acne-col2 .sub-row1-div img {
+  width: 611px;
+}
+
+.solutions-row .acne .acne-col2 .sub-row1-ul {
+  float: right;
+  width: 294px;
+}
+
+.solutions-row .acne .acne-col2 .sub-row1-div {
+  position: relative;
+}
+
+.solutions-row .acne .acne-col2 .sub-row1-div .com-h4 {
+  margin-top: -19px;
+  padding-bottom: 4px;
+}
+
+.solutions-row .acne .acne-col2 .sub-row1-div .p1 {
+  padding-top: 7px;
+  padding-bottom: 11px;
+}
+
+.solutions-row .acne .acne-col2 .new {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  line-height: 1.2;
+  padding: 7px 12px;
+  background-color: #F7F7F7;
+  font-size: 12px;
+}
+
+.com-h4 {
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.solutions-row .acne .acne-col2 .com-h4 {
+  margin-top: 12px;
+  padding-bottom: 1.4px;
+}
+
+.solutions-row .acne p {
+  line-height: 1.3;
+  color: #2E2E22;
+  font-size: 12px;
+}
+
+.solutions-row .acne .p1 {
+  line-height: 1.2;
+  padding-top: 8px;
+  padding-bottom: 11px;
+  font-weight: 500;
+}
+
+.solutions-row .acne .acne-col2 .sub-row1-div .add-to-cart-btn,
+.solutions-row .acne .add-to-cart-btn {
+  position: relative;
+  width: 611px;
+  line-height: 1.2;
+  padding: 10px 0px 10px 32px;
+  background-color: #FFFFFF;
+  color: #2E2E22;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.solutions-row .acne .acne-col2 .sub-row1-div .add-to-cart-btn::before,
+.solutions-row .acne .add-to-cart-btn::before {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  left: -78px;
+  width: 12px;
+  height: 10px;
+  margin: 0 auto;
+  background: url('../img/category/img_add_to_cart.png') no-repeat center/cover;
+  content: '';
+}
+
+
+.solutions-row .acne .add-to-cart-btn,
+.solutions-row .acne .sub-row1 .sub-row1-ul .add-to-cart-btn {
+  width: 294px;
+  margin-bottom: 39px;
+  border: 1px solid #707070;
+}
+
+.solutions-row .acne .add-to-cart-btn::before,
+.solutions-row .acne .sub-row1 .sub-row1-ul .add-to-cart-btn::before {
+  left: -81px;
+}
+
+
+.solutions-row .acne .acne-col2 ul {
+  list-style: none;
+}
+
+.solutions-row .acne ul li img,
+.solutions-row .acne .sub-row1-div .sub-row1-ul li img {
+  width: 294px;
+  height: 213px;
+  border: 1px solid #707070;
+}
+
+.solutions-row .acne .acne-col2 .sub-col2 .com-h4,
+.solutions-row .acne .sub-row1-div .sub-row1-ul .com-h4,
+.solutions-row .acne-col2 .acne-blk2 .com-h4 {
+  margin-top: 11px;
+  padding-bottom: 1.1px;
+}
+
+.solutions-row .acne .sub-row1 .sub-row1-ul li {
+  display: inline-block;
+  margin-right: 19px;
+}
+
+.solutions-row .acne .sub-row1 .sub-row1-ul li:last-child {
+  margin-right: 0px;
+}
+
+.solutions-row .acne .acne-col2 .acne-blk1 {
+  padding-bottom: 11px;
+  border-bottom: 1px solid #707070;
+}
+
+.solutions-row .acne-col2 .acne-blk1-ul li {
+  float: left;
+  margin-right: 23px;
+  margin-bottom: 25px;
+}
+
+.solutions-row .acne-col2 .acne-blk1-ul li:nth-of-type(3n) {
+  margin-right: 0px;
+}
+
+.solutions-row .acne .acne-col2 .acne-blk2 {
+  padding-top: 50px;
+}
+
+.solutions-row .acne .acne-col2 .acne-blk2 {
+  border-bottom: 1px solid #707070;
+}
+
+.solutions-row .acne .acne-col2 .acne-blk2 .acne-blk1-ul {
+  margin-bottom: -15px;
+}
+
+.sub-row2 {
+  margin-top: 23px;
+
+}
+
+.sub-row2 ul li {
+  float: left;
+  margin-right: 2.5%;
+}
+
+.sub-row2 ul li:last-child {
+  margin-right: 0;
+}
+
+
+
+/* Treatment row */
+.treatment-row {
+  margin-top: 38px;
+  background: url('../img/category/img_treatment_bg.png') no-repeat center/cover;
+}
+
+.treatment-row .treatment-txt-blk .com-ttl br {
+  display: none;
+}
+
+.treatment-row .treatment-txt-blk {
+  float: left;
+  width: 490px;
+  padding-top: 19%;
+  padding-bottom: 17.4%;
+  padding-left: 5.2%;
+}
+
+.treatment-row .treatment-txt-blk .com-ttl {
+  line-height: 1.4;
+  padding-bottom: 24px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.treatment-row .treatment-txt-blk p {
+  line-height: 1.5;
+  padding-bottom: 57px;
+  color: #EEF2F4;
+}
+
+.treatment-row .treatment-txt-blk .com-btn {
+  line-height: 1.2;
+  padding: 8px 38px;
+  border: 1px solid #FFFFFF;
+  background-color: #35736A;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.treatment-row .treatment-txt-blk .com-btn:hover {
+  background-color: #FFFFFF;
+  color: #2E2E22;
+}
+
+.sun-cream-row {
+  padding-top: 47px;
+  padding-bottom: 39px;
+}
+
+.sun-cream-row .sub-inner .com-ttl {
+  text-align: center;
+}
+
+.sun-cream-row .sub-inner p {
+  line-height: 1.5;
+  padding-top: 14px;
+  text-align: center;
+}
+
+.sun-cream-row .sub-inner .sun-cream-ul {
+  list-style: none;
+  padding-top: 46px;
+  padding-left: 27px;
+}
+
+.sun-cream-row .sub-inner .sun-cream-ul li {
+  float: left;
+  width: 251px;
+  margin-right: 29px;
+  margin-bottom: 60px;
+}
+
+.sun-cream-row .sub-inner .sun-cream-ul li:nth-of-type(4n) {
+  margin-right: 0;
+}
+
+.sun-cream-row .sub-inner .sun-cream-ul .com-h4 {
+  padding-top: 17px;
+}
+
+.sun-cream-row .sub-inner .sun-cream-ul p {
+  line-height: 1.3;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.sun-cream-row .sub-inner .sun-cream-ul a {
+  line-height: 1.2;
+  color: #2E2E22;
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+/*  Ipad  */
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+
+  body {
+    margin: 0 auto;
+    font-size: 2.083vw;
+    max-width: 153.646vw;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .l-inner {
+    width: 98%;
+    margin: 0 auto;
+    max-width: 89.583vw;
+  }
+
+  .header-row {
+    height: 16.667vw;
+  }
+
+  .pc,
+  .sp {
+    display: none !important;
+  }
+
+  .tb {
+    display: block !important;
+  }
+
+  .slider-row .banner-slider img {
+    width: 100vw;
+  }
+
+  .slider-row .l-inner .txt-blk {
+    top: 8.854vw;
+    left: 9.115vw;
+    width: 58.854vw;
+  }
+
+  .com-ttl {
+    font-size: 6.25vw;
+  }
+
+  .slider-row .txt-blk .com-ttl {
+    padding-bottom: 2.344vw;
+  }
+
+  .slider-row .txt-blk p {
+    width: 49.479vw;
+  }
+
+
+  .slick-dots li button:before {
+    top: -7.813vw !important;
+    width: 2.083vw !important;
+    height: 1.953vw !important;
+    background-color: #FF8800 !important;
+  }
+
+  /* Solutions for all skin health */
+  .com-h3 {
+    font-size: 3.646vw;
+  }
+
+  .solutions-row .sol-header {
+    margin-top: -3.906vw;
+    padding-bottom: 4.948vw;
+    border: 0.13vw solid #354E57;
+  }
+
+  .solutions-row .sol-header .com-h3 {
+    padding-top: 5.469vw;
+    padding-bottom: 0.781vw;
+    font-size: 3.646vw;
+    font-weight: 400;
+  }
+
+  .solutions-row .sol-header span {
+    padding-bottom: 1.302vw;
+  }
+
+  .slick-prev,
+  .slick-next {
+    top: 45% !important;
+  }
+
+  .slick-prev {
+    left: 4.948vw !important;
+    z-index: 1 !important;
+  }
+
+  .slick-next {
+    right: 11.068vw !important;
+  }
+
+  /* Smooth Scroll Anchor */
+
+  .sub-col1 .sub-col1-div {
+    width: 81.641vw;
+    margin-top: -9.766vw;
+  }
+
+  .solutions-row .anchor-link .links {
+    margin-left: 2.2%;
+    padding-top: 6.51vw;
+  }
+
+  .solutions-row .anchor-link .links a {
+    margin-right: 9.896vw;
+    border: 0.13vw solid #354E57;
+    font-size: 2.344vw;
+    border-radius: 3.906vw;
+  }
+
+  .solutions-row .anchor-link .links a:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  .solutions-row .anchor-link .links .acne-link {
+    width: 18.62vw;
+    padding: 2.214vw 6.641vw;
+  }
+
+  .solutions-row .anchor-link .links .treatment-link {
+    width: 21.615vw;
+    padding: 2.214vw 5.469vw;
+  }
+
+  .solutions-row .anchor-link .links .suncream-link {
+    width: 25vw;
+    padding: 2.214vw 6.641vw;
+  }
+
+  .solutions-row .anchor-link .acne .acne-col1 {
+    right: 0;
+    left: 0;
+    float: none;
+    width: 63.411vw;
+    margin: 0 auto;
+    padding-top: 5.208vw;
+  }
+
+  .solutions-row .anchor-link .acne .acne-col1 .row1 {
+    float: left;
+  }
+
+  .solutions-row .anchor-link .acne .acne-col1 .row2 {
+    float: right;
+  }
+
+  .solutions-row .anchor-link .acne .acne-col2 {
+    float: none;
+    width: 81.641vw;
+    margin-left: 3.906vw;
+    padding-top: 5.078vw;
+  }
+
+  .solutions-row .acne .acne-col1 .com-h4 {
+    padding-bottom: 4.036vw;
+    font-size: 2.083vw;
+  }
+
+  .solutions-row .acne .row1 ul,
+  .solutions-row .acne .row2 ul {
+    padding-bottom: 0vw;
+    padding-left: 3.516vw;
+  }
+
+  .solutions-row .acne .row1 ul li,
+  .solutions-row .acne .row2 ul li {
+    padding-bottom: 3.906vw;
+  }
+
+  .solutions-row .acne .row1 ul li a,
+  .solutions-row .acne .row2 ul li a {
+    font-size: 1.823vw;
+  }
+
+  /* edit */
+
+
+  .solutions-row .acne .acne-col2 .sub-row1-div {
+    float: none;
+    width: 81.641vw;
+  }
+
+
+  .solutions-row .acne .acne-col2 .sub-row1-div img {
+    width: 81.641vw;
+    height: 79.427vw;
+    margin-left: 0vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-ul {
+    float: none;
+    width: 81.641vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div {
+    margin-top: -2.083vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div .com-h4 {
+    margin-top: -2.474vw;
+    padding-bottom: 0.521vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div .p1 {
+    padding-top: 0.911vw;
+    padding-bottom: 1.563vw;
+  }
+
+  .solutions-row .acne .acne-col2 .new {
+    top: 2.604vw;
+    left: 2.604vw;
+    padding: 0.911vw 1.563vw;
+    font-size: 1.563vw;
+  }
+
+  .com-h4 {
+    font-size: 1.823vw;
+  }
+
+  .solutions-row .acne .acne-col2 .com-h4 {
+    margin-top: 1.693vw;
+    padding-bottom: 0.13vw;
+  }
+
+  .solutions-row .acne p {
+    font-size: 1.563vw;
+  }
+
+  .solutions-row .acne .p1 {
+    padding-top: 1.042vw;
+    padding-bottom: 1.432vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div .add-to-cart-btn,
+  .solutions-row .acne .add-to-cart-btn {
+    width: 81.641vw;
+    padding: 1.302vw 0vw 1.302vw 4.167vw;
+    font-size: 1.563vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div .add-to-cart-btn::before,
+  .solutions-row .acne .add-to-cart-btn::before {
+    top: 1.563vw;
+    right: 0;
+    left: -10.156vw;
+    width: 1.563vw;
+    height: 1.302vw;
+    margin: 0 auto;
+  }
+
+
+  .solutions-row .acne .add-to-cart-btn,
+  .solutions-row .acne .sub-row1 .sub-row1-ul .add-to-cart-btn {
+    width: 38.281vw;
+    margin-bottom: 4.948vw;
+    border: 0.13vw solid #707070;
+  }
+
+  .solutions-row .acne .add-to-cart-btn::before,
+  .solutions-row .acne .sub-row1 .sub-row1-ul .add-to-cart-btn::before {
+    left: -10.547vw;
+  }
+
+  .solutions-row .acne ul li img,
+  .solutions-row .acne .sub-row1-div .sub-row1-ul li img {
+    width: 38.281vw;
+    height: 27.734vw;
+    border: 0.13vw solid #707070;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-col2 .com-h4,
+  .solutions-row .acne .sub-row1-div .sub-row1-ul .com-h4,
+  .solutions-row .acne-col2 .acne-blk2 .com-h4 {
+    margin-top: 1.693vw;
+    padding-bottom: 0.13vw;
+  }
+
+  .solutions-row .acne .sub-row1 .sub-row1-ul li {
+    display: inline-block;
+    /*no delete*/
+    margin-right: 4.557vw;
+    margin-bottom: -2.865vw;
+  }
+
+  .solutions-row .acne .sub-row1 .sub-row1-ul li:last-child {
+    margin-right: 0vw;
+  }
+
+  .solutions-row .acne .sub-row2 .sub-row2-tb {
+    display: none;
+  }
+
+  .solutions-row .acne .acne-col2 .acne-blk1 {
+    padding-bottom: 0.13vw;
+    border-bottom: 0.13vw solid #707070;
+  }
+
+  .solutions-row .acne-col2 .acne-blk1-ul li {
+    margin-right: 5.078vw;
+    margin-bottom: 0.13vw;
+  }
+
+  .solutions-row .acne-col2 .acne-blk1-ul li:nth-of-type(2n) {
+    margin-right: 0vw;
+  }
+
+  .solutions-row .acne-col2 .acne-blk1-ul li:nth-child(3) {
+    margin-right: 5.078vw;
+  }
+
+  .solutions-row .acne .acne-col2 .acne-blk2 {
+    padding-top: 5.208vw;
+    padding-bottom: 1.563vw;
+    border-bottom: 0.13vw solid #707070;
+  }
+
+  .solutions-row .acne .acne-col2 .acne-blk2 .acne-blk1-ul {
+    margin-bottom: -1.563vw;
+  }
+
+  .sub-row2 {
+    margin-top: 2.995vw;
+
+  }
+
+  .sub-row2 ul li {
+    margin-right: 2.5%;
+  }
+
+  .sub-row2 ul li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .sub-row2 ul li:last-child {
+    margin-right: 0;
+  }
+
+
+  /* Treatment row */
+  .treatment-row {
+    margin-top: 7.813vw;
+    background: url('../img/category/img_treatment_tb.png') no-repeat center/cover;
+  }
+
+  .treatment-row .treatment-txt-blk .com-ttl br {
+    display: block;
+  }
+
+  .treatment-row .treatment-txt-blk {
+    width: 80.99vw;
+    padding-top: 14%;
+    padding-bottom: 86.4%;
+    padding-left: 5.9%;
+  }
+
+  .treatment-row .treatment-txt-blk .com-ttl {
+    padding-bottom: 2.865vw;
+    font-size: 5.208vw;
+  }
+
+  .treatment-row .treatment-txt-blk p {
+    padding-bottom: 7.422vw;
+  }
+
+  .treatment-row .treatment-txt-blk .com-btn {
+    padding: 1.042vw 4.948vw;
+    border: 0.13vw solid #FFFFFF;
+    font-size: 1.823vw;
+  }
+
+  .sun-cream-row {
+    padding-top: 6.38vw;
+    padding-bottom: 2.474vw;
+  }
+
+  .sun-cream-row .sub-inner p {
+    padding-top: 1.823vw;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul {
+    right: 0;
+    left: 0;
+    width: 69.141vw;
+    margin: 0 auto;
+    padding-top: 4.557vw;
+    padding-left: 0;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul li {
+    width: 32.682vw;
+    margin-right: 3.776vw;
+    margin-bottom: 5.208vw;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul li:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul .com-h4 {
+    padding-top: 2.214vw;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul p {
+    padding-top: 1.563vw;
+    padding-bottom: 1.302vw;
+    font-size: 1.563vw;
+    font-weight: 700;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul a {
+    font-size: 1.823vw;
+  }
+
+}
+
+@media screen and (max-width:767.9px) {
+  body {
+    margin: 0 auto;
+    font-size: 2.5vw;
+    max-width: 119.984vw;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .l-inner {
+    width: 98%;
+    margin: 0 auto;
+    max-width: 87.5vw;
+  }
+
+  .header-row {
+    height: 11.406vw;
+  }
+
+  .tb,
+  .pc {
+    display: none !important;
+  }
+
+  .sp {
+    display: block !important;
+  }
+
+  .slider-row .banner-slider img {
+    width: 100vw;
+  }
+
+
+  .slider-row .l-inner .txt-blk {
+    top: 12.813vw;
+    left: 6.094vw;
+    width: 70.625vw;
+  }
+
+  .com-ttl {
+    font-size: 7.5vw;
+  }
+
+  .slider-row .txt-blk .com-ttl {
+    padding-bottom: 2.813vw;
+  }
+
+  .slider-row .txt-blk p {
+    width: 59.375vw;
+  }
+
+
+  .slick-dots li button:before {
+    top: -9.375vw !important;
+    width: 2.5vw !important;
+    height: 2.344vw !important;
+    background-color: #FF8800 !important;
+  }
+
+  .slick-dots li button
+
+  /* Solutions for all skin health */
+  .com-h3 {
+    font-size: 4.375vw;
+  }
+
+  .solutions-row .sol-header {
+    margin-top: -4.688vw;
+    padding-bottom: 5.938vw;
+    border: 0.156vw solid #354E57;
+  }
+
+  .solutions-row .sol-header .com-h3 {
+    padding-top: 6.563vw;
+    padding-bottom: 0.938vw;
+    font-size: 4.375vw;
+    font-weight: 400;
+  }
+
+  .solutions-row .sol-header span {
+    padding-bottom: 1.563vw;
+  }
+
+  .slick-prev,
+  .slick-next {
+    top: 45% !important;
+  }
+
+  .slick-prev {
+    left: 3.125vw !important;
+    z-index: 1 !important;
+  }
+
+  .slick-next {
+    right: 10vw !important;
+  }
+
+  /* Smooth Scroll Anchor */
+
+  .sub-col1 .sub-col1-div {
+    width: 97.969vw;
+    margin-top: -11.719vw;
+  }
+
+  .solutions-row .anchor-link .links {
+    margin-left: 2%;
+    padding-top: 6.25vw;
+  }
+
+  .anchor-link .links .sp {
+    bottom: -0.156vw;
+    left: 7.344vw;
+    width: 3.594vw;
+    height: 3.594vw;
+  }
+
+  .solutions-row .anchor-link .links a {
+    margin-right: 2.344vw;
+    border: 0.156vw solid #354E57;
+    font-size: 2.813vw;
+    border-radius: 4.688vw;
+  }
+
+  .solutions-row .anchor-link .links a:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  .solutions-row .anchor-link .links .acne-link {
+    width: 22.344vw;
+    padding: 2.656vw 7.969vw;
+  }
+
+  .solutions-row .anchor-link .links .treatment-link {
+    width: 25.938vw;
+    padding: 2.656vw 6.563vw;
+  }
+
+  .solutions-row .anchor-link .links .suncream-link {
+    width: 30vw;
+    padding: 2.656vw 7.969vw;
+  }
+
+  .solutions-row .anchor-link .acne .acne-col1 {
+    right: 0;
+    left: 0;
+    float: none;
+    width: 76.094vw;
+    margin: 0 auto;
+    padding-top: 7.656vw;
+  }
+
+  .solutions-row .anchor-link .acne .acne-col1 .row1 {
+    float: left;
+  }
+
+  .solutions-row .anchor-link .acne .acne-col1 .row2 {
+    float: right;
+  }
+
+  .solutions-row .anchor-link .acne .acne-col2 {
+    float: none;
+    width: 87.5vw;
+    margin-left: 0vw;
+    padding-top: 6.194vw;
+  }
+
+  .solutions-row .acne .acne-col1 .com-h4 {
+    padding-bottom: 4.844vw;
+    font-size: 2.5vw;
+  }
+
+  .solutions-row .acne .row1 ul,
+  .solutions-row .acne .row2 ul {
+    padding-bottom: 0vw;
+    padding-left: 4.219vw;
+  }
+
+  .solutions-row .acne .row1 ul li,
+  .solutions-row .acne .row2 ul li {
+    padding-bottom: 4.688vw;
+  }
+
+  .solutions-row .acne .row1 ul li a,
+  .solutions-row .acne .row2 ul li a {
+    font-size: 2.188vw;
+  }
+
+  /* edit */
+
+
+  .solutions-row .acne .acne-col2 .sub-row1-div {
+    float: none;
+    width: 87.5vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div img {
+    width: 87.5vw;
+    margin-left: 0;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-ul {
+    float: none;
+    width: 87.5vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div {
+    margin-top: -4.219vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div .com-h4 {
+    margin-top: 1.719vw;
+    padding-bottom: 0.625vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div .p1 {
+    padding-top: 1.094vw;
+    padding-bottom: 1.875vw;
+  }
+
+  .solutions-row .acne .acne-col2 .new {
+    top: 3.581vw;
+    left: 3.125vw;
+    padding: 1.094vw 1.875vw;
+    font-size: 1.875vw;
+  }
+
+  .com-h4 {
+    font-size: 2.188vw;
+  }
+
+  .solutions-row .acne .acne-col2 .com-h4 {
+    margin-top: 2.031vw;
+    padding-bottom: 0.156vw;
+  }
+
+  .solutions-row .acne p {
+    font-size: 1.875vw;
+  }
+
+  .solutions-row .acne .p1 {
+    padding-top: 1.25vw;
+    padding-bottom: 1.719vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div .add-to-cart-btn,
+  .solutions-row .acne .add-to-cart-btn {
+    width: 87.5vw;
+    padding: 1.563vw 0vw 1.563vw 5vw;
+    font-size: 1.875vw;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-row1-div .add-to-cart-btn::before,
+  .solutions-row .acne .add-to-cart-btn::before {
+    top: 1.875vw;
+    right: 0;
+    left: -12.188vw;
+    width: 1.875vw;
+    height: 1.563vw;
+    margin: 0 auto;
+  }
+
+
+  .solutions-row .acne .add-to-cart-btn,
+  .solutions-row .acne .sub-row1 .sub-row1-ul .add-to-cart-btn {
+    width: 42.188vw;
+    margin-bottom: 6.094vw;
+    border: 0.156vw solid #707070;
+  }
+
+  .solutions-row .acne .add-to-cart-btn::before,
+  .solutions-row .acne .sub-row1 .sub-row1-ul .add-to-cart-btn::before {
+    left: -12.656vw;
+  }
+
+  .solutions-row .acne ul li img,
+  .solutions-row .acne .sub-row1-div .sub-row1-ul li img {
+    width: 42.188vw;
+    height: 33.281vw;
+    border: 0.156vw solid #707070;
+  }
+
+  .solutions-row .acne .acne-col2 .sub-col2 .com-h4,
+  .solutions-row .acne .sub-row1-div .sub-row1-ul .com-h4,
+  .solutions-row .acne-col2 .acne-blk2 .com-h4 {
+    margin-top: 2.188vw;
+    padding-bottom: 0.156vw;
+
+  }
+
+  .solutions-row .acne .sub-row1 .sub-row1-ul li {
+    display: inline-block;
+    /*no delete*/
+    margin-right: 2.5vw;
+    margin-bottom: -3.438vw;
+  }
+
+  .solutions-row .acne .sub-row1 .sub-row1-ul li:last-child {
+    margin-right: 0vw;
+  }
+
+
+  .solutions-row .acne .acne-col2 .acne-blk1 {
+    padding-bottom: 0.156vw;
+    border-bottom: 0.156vw solid #707070;
+  }
+
+  .solutions-row .acne-col2 .acne-blk1-ul li {
+    float: left;
+    margin-right: 3.125vw;
+    margin-bottom: 0vw;
+  }
+
+  .solutions-row .acne-col2 .acne-blk1-ul li:nth-of-type(2n) {
+    margin-right: 0vw;
+  }
+
+  .solutions-row .acne-col2 .acne-blk1-ul li:nth-child(3) {
+    margin-right: 3.125vw;
+  }
+
+  .solutions-row .acne .acne-col2 .acne-blk2 {
+    padding-top: 6.094vw;
+    padding-bottom: 1.875vw;
+    border-bottom: 0.156vw solid #707070;
+  }
+
+  .solutions-row .acne .acne-col2 .acne-blk2 .acne-blk1-ul {
+    margin-bottom: -1.875vw;
+  }
+
+  .sub-row2 {
+    margin-top: 3.594vw;
+
+  }
+
+  .sub-row2 ul li {
+    margin-right: 3.5%;
+
+  }
+
+  .sub-row2 ul li:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .sub-row2 ul li:last-child {
+    margin-right: 0;
+  }
+
+
+  /* Treatment row */
+  .treatment-row {
+    margin-top: 9.375vw;
+    background: url('../img/category/img_treatment_sp.png') no-repeat center/cover;
+  }
+
+  .treatment-row .treatment-txt-blk .com-ttl br {
+    display: block;
+  }
+
+  .treatment-row .treatment-txt-blk {
+    width: 72.969vw;
+    padding-top: 16.9%;
+    padding-bottom: 106.2%;
+    padding-left: 7.3%;
+  }
+
+  .treatment-row .treatment-txt-blk .com-ttl {
+    padding-bottom: 3.538vw;
+    font-size: 6.25vw;
+  }
+
+  .treatment-row .treatment-txt-blk p {
+    padding-bottom: 9.219vw;
+  }
+
+  .treatment-row .treatment-txt-blk .com-btn {
+    padding: 1.25vw 5.938vw;
+    border: 0.156vw solid #FFFFFF;
+    font-size: 2.188vw;
+  }
+
+  .sun-cream-row {
+    padding-top: 9.063vw;
+    padding-bottom: 1.363vw;
+  }
+
+  .sun-cream-row .sub-inner p {
+    padding-top: 2.188vw;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul {
+    right: 0;
+    left: 0;
+    width: 39.219vw;
+    margin: 0 auto;
+    padding-top: 5.469vw;
+    padding-left: 0;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul li {
+    width: 39.219vw;
+    margin-right: 4.531vw;
+    margin-bottom: 4.531vw;
+    text-align: center;
+    /*no delete*/
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul li:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul .com-h4 {
+    padding-top: 2.656vw;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul p {
+    padding-top: 1.875vw;
+    padding-bottom: 1.563vw;
+    font-size: 1.875vw;
+    text-align: center;
+  }
+
+  .sun-cream-row .sub-inner .sun-cream-ul a {
+    font-size: 2.188vw;
+  }
+
+}
